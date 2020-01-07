@@ -147,9 +147,13 @@ hr{
 .bottom-container a:hover{
   color: #11f6f6;
 }
-@media (max-width: 575.98px) { .intro{  width: 85%;}
+@media (max-width: 575.98px) { 
+  .intro, .web-codes-p, .graphiste-p {  width: 85%;}
 h2, h3, p {font-size: 135%;}
+.web-codes-p, .graphiste-p 
+}
  }
-@media (max-width: 767.98px) {  .intro{  width: 75%;} 
+@media (max-width: 767.98px) {  
+  .intro, .web-codes-p, .graphiste-p {  width: 75%;} 
 h2, h3, p {font-size: 130%;}
 }
