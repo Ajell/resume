@@ -56,27 +56,30 @@ p{
   margin-bottom: 100px;
 }
 .intro {
-  width: 50%;
+
   margin:0 auto;
   text-align: left;
 }
+.profile, .skills{
+
+  margin: 0 5%;
+}
 .skill-row {
-  width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
 }
 .my-img {
-  width: 17%;
+  width: 22%;
   margin-right: 30px;
 }
 .graphiste-img {
-  width: 25%;
+  max-width: 25%;
   float: left;
   margin-right: 30px;
 }
 
 .web-codes-img {
-  width: 23%;
+  max-width: 23%;
   float: right;
   margin-left: 30px;
 }
@@ -148,12 +151,21 @@ hr{
   color: #11f6f6;
 }
 @media (max-width: 575.98px) { 
-  .intro, .web-codes-p, .graphiste-p {  width: 85%;}
-h2, h3, p {font-size: 200%;}
-.web-codes-p, .graphiste-p 
+  .intro {  width: 85%;}
+  .middle-container {width: 85%;}
+p{
+  line-height: 1.8;
+  font-size: 200%;
 }
- }
+
+}
+
 @media (max-width: 767.98px) {  
-  .intro, .web-codes-p, .graphiste-p {  width: 75%;} 
-h2, h3, p {font-size: 190%;}
+  .intro {  width: 75%;} 
+  .middle-container {width: 85%;}
+  p{
+    line-height: 1.8;
+    font-size: 200%;
+  }
+
 }
