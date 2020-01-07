@@ -154,19 +154,19 @@ hr{
 @media (max-width: 575.98px) { 
   .intro {  width: 85%;}
   .middle-container {width: 85%;}
-p{
-  line-height: 1.8;
-  font-size: 200%;
-}
+  p.graphiste-p, p.intro, p.web-codes-p, p.contact-me{
+    line-height: 1.8;
+    font-size: 255%;
+  }
 
 }
 
 @media (max-width: 767.98px) {  
   .intro {  width: 75%;} 
   .middle-container {width: 85%;}
-  p{
+  p.graphiste-p, p.intro, p.web-codes-p, p.contact-me{
     line-height: 1.8;
-    font-size: 200%;
+    font-size: 250%;
   }
 
 }
