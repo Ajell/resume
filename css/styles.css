@@ -149,11 +149,11 @@ hr{
 }
 @media (max-width: 575.98px) { 
   .intro, .web-codes-p, .graphiste-p {  width: 85%;}
-h2, h3, p {font-size: 135%;}
+h2, h3, p {font-size: 200%;}
 .web-codes-p, .graphiste-p 
 }
  }
 @media (max-width: 767.98px) {  
   .intro, .web-codes-p, .graphiste-p {  width: 75%;} 
-h2, h3, p {font-size: 130%;}
+h2, h3, p {font-size: 190%;}
 }
