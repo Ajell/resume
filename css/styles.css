@@ -57,7 +57,6 @@ p{
   margin-bottom: 100px;
 }
 .intro {
-
   margin:0 auto;
   text-align: left;
 }
@@ -116,7 +115,7 @@ hr{
 	cursor:pointer;
 	color:#ffffff;
 	font-family: 'Montserrat', sans-serif;
-	font-size:17px;
+	font-size:2rem;
 	padding:16px 31px;
   margin: 80px auto 60px;
 	text-decoration:none;
@@ -142,7 +141,7 @@ hr{
 }
 .bottom-container p {
   color: #eaf6f6;
-  font-size: 70%;
+  font-size: 0.8rem;
 }
 .bottom-container a {
   text-decoration: none;
@@ -151,22 +150,34 @@ hr{
 .bottom-container a:hover{
   color: #11f6f6;
 }
-@media (max-width: 575.98px) { 
-  .intro {  width: 85%;}
-  .middle-container {width: 85%;}
-  p.graphiste-p, p.intro, p.web-codes-p, p.contact-me{
-    line-height: 1.8;
-    font-size: 255%;
+@media (max-width: 575.98px) {
+  body{font-size: 2rem;
   }
-
+  .my-img {
+    min-width: 22% }
+  .middle-container {width: 95%;}
+  p.graphiste-p, p.intro, p.web-codes-p, p.contact-me{
+  line-height: 1.8;
+  font-size: 2.5rem;
+  text-align: justify;
+  }
+  .bottom-container a{
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 767.98px) {  
-  .intro {  width: 75%;} 
+  body{font-size: 2rem;
+  }
+  .my-img {
+    min-width: 22%}
   .middle-container {width: 85%;}
   p.graphiste-p, p.intro, p.web-codes-p, p.contact-me{
     line-height: 1.8;
-    font-size: 250%;
+    font-size: 2.5rem;
+    text-align: justify;
   }
-
+  .bottom-container a{
+    font-size: 1.8rem;
+  }
 }
